@@ -184,3 +184,12 @@ main {
     margin-top: 50px;
 }
 /* -------main section style end here------- */
+
+/* -------footer style start here------- */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px 203px;
+    margin-top: 113px;
+}
+/* -------footer style end here------- */
