@@ -97,11 +97,32 @@ nav a{
 }
 /* -------header related style end here------- */
 /* -------main section style start here------- */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* about-section style */
 .about-section{
     padding: 130px;
     background-color: #FFF8F3;
     border-radius: 10px;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    color: #757575;
+    font-size: 20px;
+}
+.info-decs{
+    color: #2f2f2f;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 21px;
 }
 /* -------main section style end here------- */
