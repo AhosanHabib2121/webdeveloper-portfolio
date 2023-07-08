@@ -1,132 +1,157 @@
 /*========== common shared style start here =============*/
-body{
-    font-family: 'Open Sans', sans-serif;
+body {
+  font-family: 'Open Sans', sans-serif;
 }
 
-.text-primary{
-    color: #FD6E0A;
+.text-primary {
+  color: #fd6e0a;
 }
-.btn-primary{
-    border-radius: 5px;
-    background: #FD6E0A;
-    color: #FFF;
-    border: 0;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 15px 35px;
+.btn-primary {
+  border-radius: 5px;
+  background: #fd6e0a;
+  color: #fff;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 15px 35px;
 }
-.section-title{
-    color: #181818;
-    text-align: center;
-    font-size: 35px;
-    font-weight: 700;
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
-.section-decs{
-    color:#757575;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+.section-decs {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+main section {
+  margin-top: 130px;
 }
 /*========== common shared style end here =============*/
 /* -------nav related style start here--------- */
-nav{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 200px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
 }
-.nav-title{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+.nav-title {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
-nav > ul{
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
-nav li{
-    list-style: none;
-    margin-right: 50px;
+nav li {
+  list-style: none;
+  margin-right: 50px;
 }
-nav a{
-    text-decoration: none;
-    color: #474747;
+nav a {
+  text-decoration: none;
+  color: #474747;
 }
 /* -------nav related style end here--------- */
 /* -------header related style start here------- */
-.header{
-    background: #FFF8F3;
-    background-image: url('../images/header_bg.png');
-    background-repeat: no-repeat;
-    background-position: bottom right;
+.header {
+  background: #fff8f3;
+  background-image: url('../images/header_bg.png');
+  background-repeat: no-repeat;
+  background-position: bottom right;
 }
-.banner{
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    align-items: center;
-    justify-content:space-between;
+.banner {
+  padding: 30px 30px 0px 150px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.banner-content{
-    max-width: 500px;
+.banner-content {
+  max-width: 500px;
 }
-.banner .profile-photo{
-    width: 450px;
+.banner .profile-photo {
+  width: 450px;
 }
-.banner-greeting{
-    color: #474747;
-    font-size: 45px;
-    font-weight: 600;
-    margin-bottom: 0;
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 0;
 }
-.banner-title{
-    color: #181818;
-    font-size: 85px;
-    font-weight: 700;
-    margin-top: 5px;
-    margin-bottom: 20px;
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
-.banner-decs{
-    margin-bottom: 30px;
-    color: #757575;
-    display: flex;
-    width: 585px;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
+.banner-decs {
+  margin-bottom: 30px;
+  color: #757575;
+  display: flex;
+  width: 585px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
 }
 /* -------header related style end here------- */
 /* -------main section style start here------- */
-main{
-    max-width: 1140px;
-    margin: 0 auto;
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 /* about-section style use here */
-.about-section{
-    padding: 130px;
-    background-color: #FFF8F3;
-    border-radius: 10px;
-    margin: 130px 0;
+.about-section {
+  padding: 130px;
+  background-color: #fff8f3;
+  border-radius: 10px;
+  margin: 130px 0;
 }
-.about-info-container{
-    display: flex;
-    justify-content: space-around;
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
 }
-.about-info{
-    text-align: center;
+.about-info {
+  text-align: center;
 }
-.info-title{
-    color: #757575;
-    font-size: 20px;
+.info-title {
+  color: #757575;
+  font-size: 20px;
 }
-.info-decs{
-    color: #2f2f2f;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 21px;
+.info-decs {
+  color: #2f2f2f;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 21px;
 }
 /* What i do section style use here */
-.what-i-do_decs{
-    padding: 30px 150px;
+.what-i-do_decs {
+  padding: 30px 150px;
+}
+.skill-container {
+  display: flex;
+  gap: 24px;
+}
+.skill {
+  padding: 30px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-decs {
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+/* Resume section style use here */
+.resume-column-title {
+  color: #474747;
+  font-size: 30px;
+  font-weight: 700;
 }
 /* -------main section style end here------- */
