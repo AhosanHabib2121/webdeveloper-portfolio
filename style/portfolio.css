@@ -101,7 +101,7 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
-/* about-section style */
+/* about-section style use here */
 .about-section{
     padding: 130px;
     background-color: #FFF8F3;
@@ -124,5 +124,9 @@ main{
     font-size: 20px;
     font-weight: 700;
     line-height: 21px;
+}
+/* What i do section style use here */
+.what-i-do_decs{
+    padding: 30px 150px;
 }
 /* -------main section style end here------- */
